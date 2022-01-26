@@ -1,0 +1,27 @@
+.parallax {
+  /* The image used */
+  background-image: url("background.png");
+  opacity: 0.25;
+
+  /* Set a specific height */
+  min-height: 400px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.container1 {
+  position: absolute;
+  
+  margin: 20px;
+  max-width: 100%;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+  background-color: 00;
+}

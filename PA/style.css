@@ -1,0 +1,67 @@
+.marq{
+    background-color:#161d2b;
+    color:white;
+    font-size:20px;
+    font-style:italic;
+    font-weight:900;
+    
+}
+ul{
+    font-weight:600;
+    padding:0px 10px 0px 10px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 600px) {
+  .marq{
+      font-size:17px;
+  }
+  .column {
+    width: 100%;
+  }
+    
+}
+
+.social a{
+    font-size:35px;
+    padding: 5px;
+}
+
+.fa-facebook{
+    color:#3b5998;
+}
+
+.fa-twitter{
+    color:#00aced;
+}
+
+.fa-google-plus-g{
+    color:#dd4b39;
+}
+
+.fa-instagram{
+    color:#517fa4;
+}
+
+.fa-youtube{
+    color:#bb0000;
+}
+
+footer > a {
+    color:#fff;
+}
+
+
+

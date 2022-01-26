@@ -1,0 +1,1 @@
+[16-Oct-2021 00:58:43 UTC] PHP Warning:  unlink(/home3/padmaiyp/public_html/storage/logs/laravel-2021-09-29.log): Read-only file system in /home3/padmaiyp/public_html/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php on line 156
